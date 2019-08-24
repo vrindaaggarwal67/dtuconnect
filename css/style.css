@@ -1,0 +1,102 @@
+.parallax1 {
+    /* The image used */
+    background-image: url("../images/bg_1.jpg");
+
+    /* Set a specific height */
+    min-height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.display-nexa {
+    font-family: 'Nexa';
+    font-weight: bold;
+}
+
+.display-nexa-normal {
+    font-family: 'Nexa';
+}
+
+.bg-pink {
+    background-color: #ff9595;
+}
+
+.container-button {
+    width: 50%;
+    text-align: center;
+}
+
+.top-padded {
+    padding-top: 1rem;
+}
+
+.text-gray {
+    color: #122932;
+}
+
+.heading-width {
+    height: 10rem;
+}
+
+.no-border {
+    border: 0px;
+}
+
+.container-cards {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contact-details {
+    height: 40rem;
+}
+
+.container-padding {
+    padding-top: 10rem;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../images/contact.jpg");
+
+    /* Set a specific height */
+    height: 20rem; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.white-rule {
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0px;
+}
+
+.centered {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+html, body {
+    height: 100%;
+}
